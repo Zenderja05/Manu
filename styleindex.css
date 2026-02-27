@@ -1,9 +1,14 @@
-@media (max-width:380px) {
+@media (min-width:380px) and (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 100px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
     }
 
     a { 
@@ -18,5 +23,16 @@
         background-color: rgb(244, 199, 85);
         color: white;
         border: 2px solid black;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    Sp {
+        font-size: 20px;
+        font-weight: bold;
     }
 }
