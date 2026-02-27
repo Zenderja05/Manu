@@ -1,4 +1,4 @@
-@media (min-width:360px) and (max-width: 960px) {
+@media (min-width:300px) and (max-width: 960px) {
     body {
         display: flex;
         flex-direction: column;
@@ -31,7 +31,7 @@
         align-items: center;
     }
 
-    Sp {
+    p {
         font-size: 20px;
         font-weight: bold;
     }
