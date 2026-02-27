@@ -1,4 +1,4 @@
-@media (min-width:380px) and (max-width:768px) {
+@media (min-width:360px) and (max-width:960px) {
     body {
         display: flex;
         justify-content: center;
